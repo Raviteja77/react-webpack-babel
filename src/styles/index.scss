@@ -1,0 +1,45 @@
+
+@import './_variables.sass';
+
+* {
+  color: $textColor;
+  margin: $zeroValue;
+  padding: $zeroValue;
+}
+
+.App-links {
+  display: flex;
+  justify-content: flex-end;
+  margin: $margin;
+}
+
+.App-links-to {
+  margin-left: $margin;
+  font-size: $fontSize;
+}
+
+.content {
+  margin: $margin;
+  text-align: center;
+  font-size: $fontSize;
+}
+
+img {
+    margin: $margin auto;
+    width: 50%; 
+    background-size: cover;
+    border-radius: $margin;
+}
+
+footer {
+  position: fixed;
+  bottom: $zeroValue;
+  width: 100%;
+  background-color: $bgColor;
+  height: 3rem;
+}
+
+footer img {
+  position: relative;
+  left: $margin;
+}
